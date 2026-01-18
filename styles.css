@@ -83,27 +83,26 @@ body {
     
 }
 
-.hero-img img {
-    width: 100%;        
-    /* height: auto;        */
-    display: block;     
-}
-
 
 .hero-section {
     position: relative;
+    min-height: 700px;  
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1A0B2E;
 }
-
 .hero-img {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    position: relative;  
 }
 
+
+.hero-img img {
+    width: 100%;        
+    display: block;
+    height: auto;
+}
 
 .text-hero {
     text-align: center;
@@ -111,30 +110,83 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 200px;  
+    margin-top: 300px;  
 }
-.mic{
+.mic {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    z-index: 3;
 }
 
-.bg-mic{
+.bg-mic {
     position: absolute;
-    top: 30%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.bg-mic img {
     width: 420px;
-     
 }
-.tech-text{
-    font-size: 3.75rem;
-    color: white;
+
+
+.text-hero {
+    position: absolute;
+    top: 38%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 4;
+    color: aliceblue;
 }
-.tech-text-p{
+
+.spotify-btn,
+.subs-2 {
+    position: absolute;
+    top: 77%;
+    z-index: 4;
+}
+
+.spotify-btn {
+    left: 46%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 54%, rgba(145, 0, 248, 1) 100%);
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: none;
+}
+
+.subs-2 {
+    left: 54.5%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 245, 41);
+    background: transparent;
+    color: rgb(12, 231, 12);
+    font-size: 16;
+
+}
+
+.nd-hero-main{
+    background-color: rgba(26, 11, 46, 1);
     color: white;
-    font-size: 1rem;
-    font-weight: 230;
+    text-align: center;
+}
+.nd-hero{
+       text-align: center;
+}
+.line{
+ 
+  display: block;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: inset;
+  border-width: px;
+
 }
