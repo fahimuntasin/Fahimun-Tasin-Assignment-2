@@ -410,3 +410,224 @@ body {
         grid-row: auto;
     }
 }
+
+.episode{
+    background-color: #1A0B2E;
+    padding: 80px 5%;
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    align-content: space-between;
+    display: flex;
+    gap: 20px;
+
+}
+.episode-headtext{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.ep-card1{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 24px;
+    padding-bottom: 24px;
+    width: 380px;
+    color: white;
+
+}
+
+.ep-card1 h3, .ep-card1 p, .ep-card1 span, .fa-clock{
+    padding: 7px 7px 7px 24px;
+}
+
+.ep-card1 span, .fa-clock{
+    color: #00FF88;
+    padding-right: 0;
+}
+
+.ep-card2{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 24px;
+    padding-bottom: 24px;
+    width: 380px;
+    color: white;
+
+}
+
+.ep-card2 h3, .ep-card2 p, .ep-card2 span, .fa-clock{
+    padding: 7px 7px 7px 24px;
+}
+
+.ep-card2 span, .fa-clock{
+    color: #00FF88;
+    padding-right: 0;
+}
+
+.ep-card3{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 24px;
+    padding-bottom: 50px;
+    width: 380px;
+    color: white;
+
+}
+
+.ep-card3 h3, .ep-card3 p, .ep-card3 span, .fa-clock{
+    padding: 7px 7px 7px 24px;
+}
+
+.ep-card3 span, .fa-clock{
+    color: #00FF88;
+    padding-right: 0;
+}
+
+.title-host{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.big-card3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+.title-host{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.big-card3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+
+.title-host{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.big-card3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+
+        .title-host {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .big-card3 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 40px;
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(53, 17, 101, 0.4);
+            border-radius: 40px;
+        }
+
+        .host-img {
+            flex-shrink: 0;
+        }
+
+        .host-img img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .host-text {
+            flex: 1;
+            color: white;
+        }
+
+        .host-text h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+        }
+
+        .host-text p {
+            font-size: 1rem;
+            line-height: 1.7;
+            margin: 0 0 25px 0;
+            color: rgba(255, 255, 255, 0.85);
+        }
+.logo-brands {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.logo-brands img {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #9333EA;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    object-fit: none;
+    object-position: center;
+}
+
+
+.logo-brands img:hover {
+    transform: scale(1.05);
+    border-color: #A855F7;
+    background: rgba(147, 51, 234, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
